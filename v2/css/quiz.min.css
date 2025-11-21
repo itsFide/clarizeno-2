@@ -2,5 +2,148 @@
 
 
 .dynamic-answer__content p{
-    font-size: 14px;
+    font-size: 13px;
+} 
+@media screen and (max-width:650px) {
+    .dynamic-answer__content p{
+        font-size: 2.657vw;
+    } 
+}
+.quiz-buttons-2{
+    width: 100%;
+}
+.quiz-3 .quiz-buttons-2{
+    width: 100%;
+}
+@media screen and (max-width: 650px) {
+    .quiz-btn-item p {
+        font-size: 3.83vw;
+    }
+    .quiz-btn-item {
+        padding: 2.62vw 7.25vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .quiz__title {
+        width: 56.657vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .quiz-4 .quiz__title{
+        width: 59.657vw;
+    }
+}
+.quiz-buttons-2 .quiz-btn-item:last-child p{
+    color: #414141;
+}
+
+
+
+
+.hero__video video{
+    object-fit: cover;
+}
+
+
+.sound-on,
+.sound-off{
+    display: none;
+}
+.sound-off.active,.sound-on.active{
+    display: flex;
+}
+.sound-btn{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    background: #000000a4;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.sound-btn svg{
+    width: 40px;
+    height: 40px;
+}
+.hero__btn{
+    display: none;
+}
+.hero__btn.show{
+    display: block;
+}
+.hero{
+    padding-bottom: 120px;
+
+}
+.hero__btn{
+    font-size: 30px;
+
+}
+@media screen and (max-width:1919px) {
+    .hero{
+    padding-bottom: 6.25vw;
+    
+}
+    .sound-btn{
+        width: 5.208vw;
+        height: 5.208vw;
+    
+    }
+    .sound-btn svg{
+        width: 2.083vw;
+        height: 2.083vw;
+    }
+    .hero__btn{
+        font-size: 1.563vw;
+        
+    }
+}
+@media screen and (max-width:1024px) {
+    .hero{
+    padding-bottom: 15.625vw;
+    
+}
+    .sound-btn{
+        width: 10.417vw;
+        height: 10.417vw;
+    
+    }
+    .sound-btn svg{
+        width: 3.906vw;
+        height: 3.906vw;
+    }
+    .hero__btn{
+        font-size: 3.906vw;
+        
+    }
+}
+
+@media screen and (max-width:650px) {
+    .hero{
+        padding-bottom: 19.625vw;
+    }
+    .sound-btn{
+        width: 12.077vw;
+        height: 12.077vw;
+    
+    }
+    .sound-btn svg{
+        width: 8.454vw;
+        height: 8.454vw;
+    }
+    .hero__btn{
+        font-size: 5.906vw;
+        
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .quiz-progress {
+        margin-top: 7.94vw;
+    }
 }
